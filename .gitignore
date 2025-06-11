@@ -12,6 +12,8 @@
 # misc
 .DS_Store
 *.pem
+.idea/
+.vscode/
 
 # debug
 npm-debug.log*
@@ -19,10 +21,11 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
 .env*
-
-__pycache__
+.aws-sam/
 venv/
-
 dist/
+
+# Python cache
+__pycache__/
+*.pyc
