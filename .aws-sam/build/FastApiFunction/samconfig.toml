@@ -1,0 +1,10 @@
+version = 0.1
+[default.deploy.parameters]
+stack_name = "flight-schedule-backend"
+resolve_s3 = true
+s3_prefix = "flight-schedule-backend"
+region = "eu-south-2"
+profile = "wmawsidentity"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
